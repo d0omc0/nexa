@@ -11,7 +11,7 @@ interface ProductProps {
 
 const ProductCard = ({ src, title, desc, link }: ProductProps) => {
   return (
-    <Link href={link}>
+    <a href={link} target="_blank" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
       <Card className="bg-zinc-900 border-zinc-800">
         <CardContent className="px-0 py-1">
           <Image
@@ -29,7 +29,7 @@ const ProductCard = ({ src, title, desc, link }: ProductProps) => {
           </div>
         </CardFooter>
       </Card>
-    </Link>
+    </a>
   );
 };
 
