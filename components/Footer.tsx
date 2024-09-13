@@ -14,7 +14,6 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-3">Index</h3>
             <ul className="space-y-2">
               <li><Link href="/explore" className="hover:text-white transition-colors">Explore</Link></li>
-              <li><Link href="/boutique" className="hover:text-white transition-colors">Boutique</Link></li>
               <li><Link href="/projects" className="hover:text-white transition-colors">Projects</Link></li>
               <li><Link href="/services" className="hover:text-white transition-colors">Services</Link></li>
               <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
@@ -23,17 +22,15 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-3">Products</h3>
             <ul className="space-y-2">
-              <li><Link href="/billify" className="hover:text-white transition-colors">Billify</Link></li>
-              <li><Link href="/supply" className="hover:text-white transition-colors">Supply</Link></li>
-              <li><Link href="/linx" className="hover:text-white transition-colors">Linx</Link></li>
-              <li><Link href="/courseos" className="hover:text-white transition-colors">CourseOS</Link></li>
+              <li><Link href="https://prismic-rho.vercel.app/" className="hover:text-white transition-colors">Glisten Ai</Link></li>
+              <li><Link href="https://imaginify-mauve.vercel.app/" className="hover:text-white transition-colors">Imaginify</Link></li>
+              <li><Link href="https://evently-mern-full.vercel.app/" className="hover:text-white transition-colors">Evently</Link></li>
+              <li><Link href="/https://www.deliciousrestro.com/" className="hover:text-white transition-colors">Delicious cafe</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="text-white font-semibold mb-3">Resources</h3>
             <ul className="space-y-2">
-              <li><Link href="/feed" className="hover:text-white transition-colors">Feed</Link></li>
-              <li><Link href="/thoughts" className="hover:text-white transition-colors">Thoughts</Link></li>
               <li><Link href="/stack" className="hover:text-white transition-colors">Stack</Link></li>
             </ul>
           </div>
@@ -41,9 +38,9 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-3">Connect</h3>
             <ul className="space-y-2">
               <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-              <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Twitter</a></li>
-              <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a></li>
-              <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">YouTube</a></li>
+              <li><Link href="https://x.com/NexaDevsPro" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Twitter</Link></li>
+              <li><Link href="https://www.linkedin.com/company/nexadevs-pro/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</Link></li>
+              <li><Link href="https://www.instagram.com/nexadevs.pro_/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">YouTube</Link></li>
             </ul>
           </div>
         </div>

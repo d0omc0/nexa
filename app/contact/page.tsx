@@ -25,6 +25,7 @@ import {
 import axios from "axios";
 import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
+import EmailButton from "@/components/EmailButton";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -69,9 +70,25 @@ export default function ContactForm() {
           eager to discuss how we can help you achieve your digital goals.
         </p>
         <div className="flex space-x-4 mb-8">
-          <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
-            <Mail className="mr-2 h-4 w-4" /> E-Mail
-          </Button>
+        <EmailButton
+              emailAddress="mailto:support@nexadevs.pro"
+              subject="Inquiry about nexa"
+              body={`Dear Nexa Support Team,
+
+                I hope this email finds you well. I recently came across your services and I'm interested in learning more about how Nexa can help my business.
+                
+                Specifically, I'd like to inquire about:
+                1. The range of services you offer
+                2. Your pricing structure
+                3. Typical timelines for project completion
+                4. Any case studies or success stories you can share
+                
+                I'm looking forward to hearing back from you and potentially discussing how we can work together.
+                
+                Thank you for your time and assistance.
+                
+                Best regards, `}
+            />
         </div>
         <Card className="bg-[#1C1C1C] border-zinc-800">
           <CardHeader>

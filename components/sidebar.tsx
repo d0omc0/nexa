@@ -128,21 +128,21 @@ export default function Sidebar() {
                       isOpen={isOpen}
                     />
                     <NavItem
-                      href="https://twitter.com"
+                      href="https://x.com/NexaDevsPro"
                       icon={Twitter}
                       label="Twitter"
                       isExternal
                       isOpen={isOpen}
                     />
                     <NavItem
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/company/nexadevs-pro/"
                       icon={Linkedin}
                       label="LinkedIn"
                       isExternal
                       isOpen={isOpen}
                     />
                     <NavItem
-                      href="https://youtube.com"
+                      href="https://www.instagram.com/nexadevs.pro_/"
                       icon={InstagramIcon}
                       label="Instagram"
                       isExternal

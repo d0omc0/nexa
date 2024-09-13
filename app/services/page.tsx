@@ -1,3 +1,4 @@
+import EmailButton from "@/components/EmailButton";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import {
@@ -62,9 +63,25 @@ export default function Component() {
                   Get started now
                 </Button>
               </Link>
-              <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
-                <MailIcon className="mr-2 h-4 w-4" /> E-Mail
-              </Button>
+              <EmailButton
+                emailAddress="mailto:support@nexadevs.pro"
+                subject="Inquiry about nexa"
+                body={`Dear Nexa Support Team,
+
+                I hope this email finds you well. I recently came across your services and I'm interested in learning more about how Nexa can help my business.
+                
+                Specifically, I'd like to inquire about:
+                1. The range of services you offer
+                2. Your pricing structure
+                3. Typical timelines for project completion
+                4. Any case studies or success stories you can share
+                
+                I'm looking forward to hearing back from you and potentially discussing how we can work together.
+                
+                Thank you for your time and assistance.
+                
+                Best regards, `}
+              />
             </CardFooter>
           </Card>
 
@@ -101,9 +118,25 @@ export default function Component() {
                   Get started now
                 </Button>
               </Link>
-              <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
-                <MailIcon className="mr-2 h-4 w-4" /> E-Mail
-              </Button>
+              <EmailButton
+                emailAddress="mailto:support@nexadevs.pro"
+                subject="Inquiry about nexa"
+                body={`Dear Nexa Support Team,
+
+                I hope this email finds you well. I recently came across your services and I'm interested in learning more about how Nexa can help my business.
+                
+                Specifically, I'd like to inquire about:
+                1. The range of services you offer
+                2. Your pricing structure
+                3. Typical timelines for project completion
+                4. Any case studies or success stories you can share
+                
+                I'm looking forward to hearing back from you and potentially discussing how we can work together.
+                
+                Thank you for your time and assistance.
+                
+                Best regards, `}
+              />
             </CardFooter>
           </Card>
 
@@ -134,9 +167,25 @@ export default function Component() {
                   Get started now
                 </Button>
               </Link>
-              <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
-                <MailIcon className="mr-2 h-4 w-4" /> E-Mail
-              </Button>
+              <EmailButton
+                emailAddress="mailto:support@nexadevs.pro"
+                subject="Inquiry about nexa"
+                body={`Dear Nexa Support Team,
+
+                I hope this email finds you well. I recently came across your services and I'm interested in learning more about how Nexa can help my business.
+                
+                Specifically, I'd like to inquire about:
+                1. The range of services you offer
+                2. Your pricing structure
+                3. Typical timelines for project completion
+                4. Any case studies or success stories you can share
+                
+                I'm looking forward to hearing back from you and potentially discussing how we can work together.
+                
+                Thank you for your time and assistance.
+                
+                Best regards, `}
+              />
             </CardFooter>
           </Card>
 
@@ -170,9 +219,25 @@ export default function Component() {
                   Get started now
                 </Button>
               </Link>
-              <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
-                <MailIcon className="mr-2 h-4 w-4" /> E-Mail
-              </Button>
+              <EmailButton
+                emailAddress="mailto:support@nexadevs.pro"
+                subject="Inquiry about nexa"
+                body={`Dear Nexa Support Team,
+
+                I hope this email finds you well. I recently came across your services and I'm interested in learning more about how Nexa can help my business.
+                
+                Specifically, I'd like to inquire about:
+                1. The range of services you offer
+                2. Your pricing structure
+                3. Typical timelines for project completion
+                4. Any case studies or success stories you can share
+                
+                I'm looking forward to hearing back from you and potentially discussing how we can work together.
+                
+                Thank you for your time and assistance.
+                
+                Best regards, `}
+              />
             </CardFooter>
           </Card>
 
@@ -196,9 +261,25 @@ export default function Component() {
                   Get started now
                 </Button>
               </Link>
-              <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
-                <MailIcon className="mr-2 h-4 w-4" /> E-Mail
-              </Button>
+              <EmailButton
+                emailAddress="mailto:support@nexadevs.pro"
+                subject="Inquiry about nexa"
+                body={`Dear Nexa Support Team,
+
+                I hope this email finds you well. I recently came across your services and I'm interested in learning more about how Nexa can help my business.
+                
+                Specifically, I'd like to inquire about:
+                1. The range of services you offer
+                2. Your pricing structure
+                3. Typical timelines for project completion
+                4. Any case studies or success stories you can share
+                
+                I'm looking forward to hearing back from you and potentially discussing how we can work together.
+                
+                Thank you for your time and assistance.
+                
+                Best regards, `}
+              />
             </CardFooter>
           </Card>
 
@@ -232,9 +313,25 @@ export default function Component() {
                   Get started now
                 </Button>
               </Link>
-              <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
-                <MailIcon className="mr-2 h-4 w-4" /> E-Mail
-              </Button>
+              <EmailButton
+                emailAddress="mailto:support@nexadevs.pro"
+                subject="Inquiry about nexa"
+                body={`Dear Nexa Support Team,
+
+                I hope this email finds you well. I recently came across your services and I'm interested in learning more about how Nexa can help my business.
+                
+                Specifically, I'd like to inquire about:
+                1. The range of services you offer
+                2. Your pricing structure
+                3. Typical timelines for project completion
+                4. Any case studies or success stories you can share
+                
+                I'm looking forward to hearing back from you and potentially discussing how we can work together.
+                
+                Thank you for your time and assistance.
+                
+                Best regards, `}
+              />
             </CardFooter>
           </Card>
 
@@ -266,9 +363,25 @@ export default function Component() {
                   Get started now
                 </Button>
               </Link>
-              <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
-                <MailIcon className="mr-2 h-4 w-4" /> E-Mail
-              </Button>
+              <EmailButton
+                emailAddress="mailto:support@nexadevs.pro"
+                subject="Inquiry about nexa"
+                body={`Dear Nexa Support Team,
+
+                I hope this email finds you well. I recently came across your services and I'm interested in learning more about how Nexa can help my business.
+                
+                Specifically, I'd like to inquire about:
+                1. The range of services you offer
+                2. Your pricing structure
+                3. Typical timelines for project completion
+                4. Any case studies or success stories you can share
+                
+                I'm looking forward to hearing back from you and potentially discussing how we can work together.
+                
+                Thank you for your time and assistance.
+                
+                Best regards, `}
+              />
             </CardFooter>
           </Card>
 
@@ -302,9 +415,25 @@ export default function Component() {
                   Get started now
                 </Button>
               </Link>
-              <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
-                <MailIcon className="mr-2 h-4 w-4" /> E-Mail
-              </Button>
+              <EmailButton
+                emailAddress="mailto:support@nexadevs.pro"
+                subject="Inquiry about nexa"
+                body={`Dear Nexa Support Team,
+
+                I hope this email finds you well. I recently came across your services and I'm interested in learning more about how Nexa can help my business.
+                
+                Specifically, I'd like to inquire about:
+                1. The range of services you offer
+                2. Your pricing structure
+                3. Typical timelines for project completion
+                4. Any case studies or success stories you can share
+                
+                I'm looking forward to hearing back from you and potentially discussing how we can work together.
+                
+                Thank you for your time and assistance.
+                
+                Best regards, `}
+              />
             </CardFooter>
           </Card>
 
@@ -329,9 +458,25 @@ export default function Component() {
                   Get started now
                 </Button>
               </Link>
-              <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
-                <MailIcon className="mr-2 h-4 w-4" /> E-Mail
-              </Button>
+              <EmailButton
+                emailAddress="mailto:support@nexadevs.pro"
+                subject="Inquiry about nexa"
+                body={`Dear Nexa Support Team,
+
+                I hope this email finds you well. I recently came across your services and I'm interested in learning more about how Nexa can help my business.
+                
+                Specifically, I'd like to inquire about:
+                1. The range of services you offer
+                2. Your pricing structure
+                3. Typical timelines for project completion
+                4. Any case studies or success stories you can share
+                
+                I'm looking forward to hearing back from you and potentially discussing how we can work together.
+                
+                Thank you for your time and assistance.
+                
+                Best regards, `}
+              />
             </CardFooter>
           </Card>
 
@@ -361,9 +506,25 @@ export default function Component() {
                   Get started now
                 </Button>
               </Link>
-              <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
-                <MailIcon className="mr-2 h-4 w-4" /> E-Mail
-              </Button>
+              <EmailButton
+                emailAddress="mailto:support@nexadevs.pro"
+                subject="Inquiry about nexa"
+                body={`Dear Nexa Support Team,
+
+                I hope this email finds you well. I recently came across your services and I'm interested in learning more about how Nexa can help my business.
+                
+                Specifically, I'd like to inquire about:
+                1. The range of services you offer
+                2. Your pricing structure
+                3. Typical timelines for project completion
+                4. Any case studies or success stories you can share
+                
+                I'm looking forward to hearing back from you and potentially discussing how we can work together.
+                
+                Thank you for your time and assistance.
+                
+                Best regards, `}
+              />
             </CardFooter>
           </Card>
         </div>
