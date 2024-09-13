@@ -8,7 +8,7 @@ import Script from "next/script"; // Import Script for JSON-LD
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NexaDevs",
+  title: "NexaDevs - Design & Development Agency",
   description: "At NexaDevs, we believe that every business deserves a digital presence that reflects its unique identity and resonates with its target audience. Our team of skilled designers and developers collaborates closely with you to understand your vision and bring it to life.",
   keywords: "web development, mobile app development, UI/UX design, graphic design, AI solutions, custom software, SEO services, responsive design, Next.js, React, Node.js, Figma, Adobe XD",
 };
