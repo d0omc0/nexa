@@ -4,7 +4,10 @@ const nextConfig = {
         remotePatterns: [
             {
                 hostname: "framerusercontent.com"
-            }
+            },
+            {
+                hostname: "creazilla-store.fra1.digitaloceanspaces.com"
+            },
         ]
     }
 };

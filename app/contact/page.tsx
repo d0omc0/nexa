@@ -65,16 +65,10 @@ export default function ContactForm() {
       <div className="max-w-4xl mx-auto p-6 mt-20">
         <h1 className="text-4xl font-bold mb-4">Contact</h1>
         <p className="text-gray-400 mb-6">
-          I&apos;m always looking to collaborate on interesting projects with
-          great people. Need a supportive hand? I have two!
+          Ready to start your project? Get in touch with us today! Our team is
+          eager to discuss how we can help you achieve your digital goals.
         </p>
         <div className="flex space-x-4 mb-8">
-          <Button
-            variant="secondary"
-            className="bg-zinc-800 text-white hover:bg-zinc-700 w-full sm:w-auto"
-          >
-            Schedule free call
-          </Button>
           <Button className="text-white border border-zinc-800 bg-[#161616]  w-full sm:w-auto ">
             <Mail className="mr-2 h-4 w-4" /> E-Mail
           </Button>
@@ -142,7 +136,7 @@ export default function ContactForm() {
                   )}
                 />
                 <Button
-                  className="w-full bg-zinc-800 text-white hover:bg-zinc-700"
+                  className="w-full  text-white "
                   type="submit"
                   disabled={!isValid || isSubmitting}
                 >

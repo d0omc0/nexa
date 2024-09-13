@@ -5,27 +5,38 @@ const tools = [
   {
     category: "Design",
     items: [
-      { name: "Figma", description: "Design Tool", icon: "https://framerusercontent.com/images/u6LX1xbRWcF4uAfNGXgPuyJiM.webp" },
-      { name: "Iconic", description: "Icon Library", icon: "https://framerusercontent.com/images/wCYUJecEDcxVjDNiA5dsJszhU0.jpg" },
-    ],
-  },
-  {
-    category: "Productivity",
-    items: [
-      { name: "Cron", description: "Calendar", icon: "https://framerusercontent.com/images/X4iSnNDJiPdfGvKo6FvP8pdne8.webp" },
-      { name: "Arc", description: "Browser", icon: "https://framerusercontent.com/images/O1J2IkfXpGphB4I7kR1VofZb18.webp" },
-      { name: "Typefully", description: "Writer & Scheduler for Twitter/X", icon: "https://framerusercontent.com/images/wPpzmgsCNjJtl12gvb9asnOm0c.jpg" },
-      { name: "Linear", description: "Project Management", icon: "https://framerusercontent.com/images/CQSyM2flIboH8syDCScLWEL7mgY.webp" },
-      { name: "Slack", description: "Collaboration", icon: "https://framerusercontent.com/images/izmKkSExzzp1VNdqJs269SIbs.png" },
+      { name: "Figma", description: "Design Tool", icon: "/figma.svg" },
+      { name: "Adobe XD", description: "Design Tool", icon: "/adobe.svg" },
+      { name: "Framer", description: "Web design platform", icon: "/framer.svg" },
     ],
   },
   {
     category: "Development",
     items: [
-      { name: "Lemon Squeezy", description: "Payment Platform", icon: "https://framerusercontent.com/images/SOG6zVvs7YHeoByIT2vCBngfAcM.webp" },
-      { name: "Framer", description: "Web Design Platform", icon: "https://framerusercontent.com/images/1tcK3V3k3zrApf8WU9BSXi5wo2I.png" },
-      { name: "Webflow", description: "Visual Development Tool", icon: "https://framerusercontent.com/images/UPkjR5UQGzIvkr5SJ7WBpGso4o.webp" },
-      { name: "Outseta", description: "Membership Software", icon: "https://framerusercontent.com/images/ngCjUa1loZrpGWgSTDXUDycS1k.webp" },
+      { name: "Nextjs", description: "react Framework", icon: "/nextjs.svg" },
+      { name: "Reactjs", description: "Javascript Library", icon: "/react-logo-svgrepo-com.svg" },
+      { name: "Vuejs", description: "Javascript Library", icon: "/vue.svg" },
+      { name: "React Native", description: "For builing native mobile apps", icon: "/react-logo-svgrepo-com.svg" },
+      { name: "Kotlin", description: "For builing android mobile apps", icon: "/kotlin.svg" },
+      { name: "Node js", description: "Javascript runtime environment", icon: "/nodejs.svg" },
+      { name: "Nest js", description: " Node.js framework", icon: "/nestjs.svg" },
+    ],
+  },
+  {
+    category: "Artificial Intelligence",
+    items: [
+      { name: "Meta Llama", description: "open source Ai model", icon: "/meta.svg" },
+      { name: "OpenAI", description: "open source Ai model", icon: "/openai.svg" },
+      { name: "TensorFlow", description: "cognitive and machine learning research", icon: "/LogosTensorflow.svg" },
+    ],
+  },
+  {
+    category: "Database",
+    items: [
+      { name: "MongoDB", description: "Database", icon: "/mongo.svg" },
+      { name: "Postgreql", description: "Database", icon: "/post.svg" },
+      { name: "Supabase", description: "Database", icon: "/supabase.svg" },
+      { name: "AstraDB", description: "Database", icon: "/datastax.png" },
     ],
   },
 ]
@@ -36,7 +47,7 @@ export default function Component() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Stack</h1>
         <p className="text-gray-400 text-sm md:text-base mb-8">
-          Tools, resources and software I use daily.
+          Tools, resources and software we use for our projects.
         </p>
 
         <div className="space-y-8">

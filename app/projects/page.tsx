@@ -1,5 +1,5 @@
 import React from 'react'
-import PHero from './_component.tsx/PHero'
+import PHero from './_component/PHero'
 import Footer from '@/components/Footer'
 
 const page = () => {

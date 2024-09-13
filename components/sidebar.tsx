@@ -13,14 +13,11 @@ import {
   FolderDot,
   Briefcase,
   Info,
-  Newspaper,
-  BookOpen,
   Layers,
   Mail,
   Twitter,
   Linkedin,
-  Youtube,
-  Search,
+  InstagramIcon,
   Menu,
   X,
 } from "lucide-react";
@@ -36,7 +33,7 @@ export default function Sidebar() {
     };
 
     window.addEventListener("resize", handleResize);
-    handleResize(); // Call once to set initial state
+    handleResize(); 
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -45,7 +42,7 @@ export default function Sidebar() {
 
   return (
     <div
-      className={`relative transition-all duration-300 ease-in-out bg-[#161616] ${
+      className={`relative transition-all duration-300 ease-in-out bg-card ${
         isOpen ? "w-64" : "w-16"
       }`}
     >
@@ -63,15 +60,14 @@ export default function Sidebar() {
       >
         <div className="flex items-center gap-3 px-4 py-2 ">
           <Avatar>
-            <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+            <AvatarImage src="/nlogo.png" alt="@shadcn" />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
           {isOpen && (
             <div>
               <p className="text-sm font-medium text-zinc-100">
-                Jackson Carter
+                NEXADEVS
               </p>
-              <p className="text-xs">Product Designer</p>
             </div>
           )}
         </div>
@@ -83,35 +79,24 @@ export default function Sidebar() {
                   href="/"
                   icon={Compass}
                   label="Explore"
-                  number="1"
-                  isOpen={isOpen}
-                />
-                <NavItem
-                  href="/boutique"
-                  icon={ShoppingBag}
-                  label="Boutique"
-                  number="2"
                   isOpen={isOpen}
                 />
                 <NavItem
                   href="/projects"
                   icon={FolderDot}
                   label="Projects"
-                  number="3"
                   isOpen={isOpen}
                 />
                 <NavItem
                   href="/services"
                   icon={Briefcase}
                   label="Services"
-                  number="4"
                   isOpen={isOpen}
                 />
                 <NavItem
                   href="/about"
                   icon={Info}
                   label="About"
-                  number="5"
                   isOpen={isOpen}
                 />
               </div>
@@ -119,35 +104,20 @@ export default function Sidebar() {
             {isOpen && (
               <>
                 <div className="py-2">
-                  <h2 className="mb-2 px-2 text-xs font-semibold tracking-wide">
+                  <h2 className="mb-2 px-2 text-xs font-semibold tracking-wide text-muted-foreground">
                     RESOURCES
                   </h2>
                   <div className="space-y-2 mt-5 flex flex-col">
                     <NavItem
-                      href="/feed"
-                      icon={Newspaper}
-                      label="Feed"
-                      number="6"
-                      isOpen={isOpen}
-                    />
-                    <NavItem
-                      href="/thoughts"
-                      icon={BookOpen}
-                      label="Thoughts"
-                      number="7"
-                      isOpen={isOpen}
-                    />
-                    <NavItem
                       href="/stack"
                       icon={Layers}
                       label="Stack"
-                      number="8"
                       isOpen={isOpen}
                     />
                   </div>
                 </div>
                 <div className="py-2">
-                  <h2 className="mb-2 px-2 text-xs font-semibold tracking-wide">
+                  <h2 className="mb-2 px-2 text-xs font-semibold tracking-wide text-muted-foreground">
                     CONNECT
                   </h2>
                   <div className="space-y-2 mt-5 flex flex-col">
@@ -155,7 +125,6 @@ export default function Sidebar() {
                       href="/contact"
                       icon={Mail}
                       label="Contact"
-                      letter="C"
                       isOpen={isOpen}
                     />
                     <NavItem
@@ -174,8 +143,8 @@ export default function Sidebar() {
                     />
                     <NavItem
                       href="https://youtube.com"
-                      icon={Youtube}
-                      label="YouTube"
+                      icon={InstagramIcon}
+                      label="Instagram"
                       isExternal
                       isOpen={isOpen}
                     />
@@ -185,17 +154,6 @@ export default function Sidebar() {
             )}
           </div>
         </ScrollArea>
-        {isOpen && (
-          <div className="mt-auto p-4">
-            <div className="relative">
-              <Search className="absolute left-2 top-2.5 h-4 w-4 text-zinc-500" />
-              <Input
-                className="pl-8 bg-zinc-800 border-zinc-700 text-zinc-400"
-                placeholder="Search..."
-              />
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );
@@ -205,7 +163,6 @@ function NavItem({
   href,
   icon: Icon,
   label,
-  number,
   letter,
   isExternal = false,
   isOpen,
@@ -215,8 +172,8 @@ function NavItem({
 
   const content = (
     <div
-      className={`flex items-center justify-between rounded-lg  transition-colors hover:bg-zinc-800 hover:text-zinc-100 ${
-        isActive ? "bg-zinc-800 text-zinc-100" : ""
+      className={`flex items-center justify-between rounded-lg  transition-colors hover:bg-primary/60 hover:text-white text-muted-foreground ${
+        isActive ? "bg-primary/60 text-white" : ""
       } ${isOpen ? "px-2 py-1.5" : "p-3"}`}
     >
       <div className="flex items-center gap-3">
@@ -229,7 +186,6 @@ function NavItem({
       </div>
       {isOpen && (
         <>
-          {number && <span className="text-sm">{number}</span>}
           {letter && <span className="text-sm">{letter}</span>}
           {isExternal && (
             <svg
