@@ -25,12 +25,6 @@ const PHero = () => {
         <h2 className="text-xl  sm:text-2xl font-semibold mb-4">Web Apps</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             <ProductCard
-              src="/decafe.png"
-              title="Delicious Restro Cafe"
-              desc="Explore our café's website, where you can immerse yourself in the cozy ambience and discover our delightful menu. Built using Nextjs, typescript, shadcn-ui and the tailwindcss framework for a responsive and visually captivating user experience."
-              link="https://www.deliciousrestro.com/"
-            />
-            <ProductCard
               src="/prismic.png"
               title="Glisten Ai"
               desc="Experience the future with our AI landing page showcasing cutting-edge technology and innovative solutions. Developed using Prismic, Nextjs, Tailwindcss, Framer-motion, and Typescript for a dynamic and informative user interface."
